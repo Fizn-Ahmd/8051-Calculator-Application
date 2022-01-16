@@ -22,4 +22,4 @@ That's it, Now restart the board if it's physical one. The code will start execu
 
 1. Enter the number with the operator eg: 10 * 30 + 78 / 90 output would be 300.
 
-**Note:** operator precedence is taken care and the flaot point values are neglected.
+**Note:** operator precedence is taken care and the float point values are neglected.
