@@ -39,6 +39,8 @@ void main()
 		}
 	}
 	sign_arr[k] = '\0';
+	/* Below code take care of operator precedence * and / has higher
+	 * precedence than + and - */
 	for (i = 0; sign_arr[i]; i++) {
 		if (sign_arr[i] == '*') {
 			converted_int_arr[i] =
