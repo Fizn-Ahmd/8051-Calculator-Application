@@ -1,3 +1,6 @@
+#ifndef calculator_app
+#define calculator_app
+
 #include <reg51.h>
 
 #define port0 0
@@ -47,3 +50,5 @@ extern u8 hex_to_int(u8);
 
 /* calculator_application */
 extern u8 key();
+
+#endif
