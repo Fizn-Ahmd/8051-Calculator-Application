@@ -14,19 +14,19 @@ typedef unsigned int u16;
 typedef unsigned long int u32;
 
 /* key_pad  */
-sbit r0 = P2 ^ 0;
-sbit r1 = P2 ^ 1;
-sbit r2 = P2 ^ 2;
-sbit r3 = P2 ^ 3;
-sbit c0 = P2 ^ 4;
-sbit c1 = P2 ^ 5;
-sbit c2 = P2 ^ 6;
-sbit c3 = P2 ^ 7;
+sbit r0 = P2^0;
+sbit r1 = P2^1;
+sbit r2 = P2^2;
+sbit r3 = P2^3;
+sbit c0 = P2^4;
+sbit c1 = P2^5;
+sbit c2 = P2^6;
+sbit c3 = P2^7;
 
 /* lcd */
-sbit rw = P3 ^ 6;
-sbit en = P3 ^ 7;
-sbit rs = P3 ^ 5;
+sbit rw = P3^6;
+sbit en = P3^7;
+sbit rs = P3^5;
 
 sfr port = 0x80;
 
